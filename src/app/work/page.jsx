@@ -18,7 +18,7 @@ const projects = [
       'E-Commerce Pizza store the project written on the latest technologies and currently the most complex project I have written. You can add or remove a selected item. You can increase or decrease the counter of one item. There are categories and sorting by price, by popularity, etc. There is page routing full-fledged shopping cart and home page',
     stack: [
       { name: 'React' },
-      { name: 'Redux Toolkit' },
+      { name: 'Redux' },
       { name: 'Typescript' },
       { name: 'Tailwind' },
     ],
@@ -117,7 +117,7 @@ const Work = () => {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-xl text-accent">
+                    <li key={index} className="text-[14px] text-accent xl:text-xl">
                       {item.name}
                       {item !== project.stack.length - 1 && ','}
                     </li>
