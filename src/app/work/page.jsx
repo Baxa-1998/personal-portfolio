@@ -33,7 +33,7 @@ const projects = [
     description:
       'Project written on React library.At first glance, it may seem like a simple site, but there is actually a precise calculation of apartments in quadrants and a slider on the main page. By the way, I designed it myself.',
     stack: [{ name: 'React' }, { name: 'CSS' }, { name: 'HTML' }, { name: 'CSS' }],
-    image: '/assets/work/1.png',
+    image: '/assets/work/2.png',
     live: 'https://modent-view-lf6u.vercel.app/',
     github: 'https://github.com/Baxa-1998/modent-view',
   },
@@ -50,7 +50,7 @@ const projects = [
       { name: 'CSS' },
       { name: 'Three.js' },
     ],
-    image: '/assets/work/1.png',
+    image: '/assets/work/3.png',
     live: 'https://clone-iphone-page.netlify.app/',
     github: 'https://github.com/Baxa-1998/Iphone-page',
   },
@@ -61,9 +61,9 @@ const projects = [
     description:
       'Multiwebsite where sells building materials. I developed it using React and Firebase. The site has a full-fledged admin panel with authorization whereyou can add, delete and change products flexible search, categories and flexible filtering. Firebase was used as a database',
     stack: [{ name: 'React' }, { name: 'GSAP' }, { name: 'Tailwind' }, { name: 'CSS' }],
-    image: '/assets/work/1.png',
-    live: 'https://clone-iphone-page.netlify.app/',
-    github: 'https://github.com/Baxa-1998/Iphone-page',
+    image: '/assets/work/4.png',
+    live: 'https://oxmetal.uz/',
+    github: 'https://github.com/Baxa-1998/oxmetal',
   },
   {
     num: '05',
@@ -72,20 +72,20 @@ const projects = [
     description:
       'Landing Page with animations.Test task from the Eloqwnt web studio.The site has a lot of animations with beautiful design',
     stack: [{ name: 'React' }, { name: 'GSAP' }, { name: 'SCSS' }],
-    image: '/assets/work/1.png',
-    live: 'https://clone-iphone-page.netlify.app/',
-    github: 'https://github.com/Baxa-1998/Iphone-page',
+    image: '/assets/work/5.png',
+    live: 'https://plaza1.netlify.app/',
+    github: 'https://github.com/Baxa-1998/Plaza',
   },
   {
     num: '06',
-    category: 'full-stack',
-    title: 'Blog',
+    category: 'web-app',
+    title: 'Weather app',
     description:
-      'Full stack block written in Nodejs and React. Features you can log in you can create, delete, modify your post you can leave a comment on post The server side was written in Express.js, Mongodb was used as the database. Client part was written on React.js library',
-    stack: [{ name: 'React' }, { name: 'Node.js' }, { name: 'Epress.js' }, { name: 'MongoDB' }],
-    image: '/assets/work/1.png',
-    live: 'https://clone-iphone-page.netlify.app/',
-    github: 'https://github.com/Baxa-1998/Iphone-page',
+      'A weather application written in Next js. I get the weather information from the API. It has the current weather and the forecast for the week. Also information about humidity, wind speed, wind direction, wind speed and other details',
+    stack: [{ name: 'React' }, { name: 'Next.js' }, { name: 'Typescript' }],
+    image: '/assets/work/6.png',
+    live: 'https://weather-app-sage-delta.vercel.app/',
+    github: 'https://github.com/Baxa-1998/weather-app-',
   },
 ];
 

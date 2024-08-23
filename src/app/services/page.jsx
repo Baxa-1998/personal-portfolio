@@ -7,45 +7,32 @@ const services = [
   {
     num: '01',
     title: 'Web development',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore dignissimos molestias ab',
+    description: 'create sites of any complexity from simple landing page to sites with 3D animations and various web applications.',
     href: '',
   },
   {
     num: '02',
     title: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore dignissimos molestias ab',
+      'I help your sites to occupy high positions in search engines',
     href: '',
   },
   {
     num: '03',
     title: 'Fixing bags ',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore dignissimos molestias ab',
+      'I search for and fix bugs in code. I analyze code, identify bugs and find their causes so that your applications and websites work smoothly.',
     href: '',
   },
   {
     num: '04',
-    title: 'UX/UI Design',
+    title: 'Telegram bots',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore dignissimos molestias ab',
+      'I design bots, create their logic, connect them to databases and integrate them with various services',
     href: '',
   },
-  {
-    num: '04',
-    title: 'UX/UI Design',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore dignissimos molestias ab',
-    href: '',
-  },
-  {
-    num: '04',
-    title: 'UX/UI Design',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore dignissimos molestias ab',
-    href: '',
-  },
+
+ 
 ];
 
 import { delay, motion } from 'framer-motion';

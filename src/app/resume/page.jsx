@@ -7,7 +7,7 @@ import { SiTailwindcss, SiNextdotjs, SiTypescript } from 'react-icons/si';
 const about = {
   title: 'About me',
   description:
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur commodi, nesciunt ratione delectus ad tempore necessitatibus neque sint ex! Fuga vel adipisci maiores unde labore a dolores cumque officiis voluptate.',
+    "I love music, I am fond of psychology, I read books on self-development and classical literature. In my free time I immerse myself in the world of computer games, which is how my love for programming was awakened. By nature I'm an introvert, like most programmers, but lately I've been trying to come out of my cozy shell and become an extrovert, although I admit that it's sometimes a bit stressful.",
   info: [
     {
       fieldName: 'Name',
@@ -44,7 +44,7 @@ const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
   description:
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur commodi, nesciunt ratione delectus ad tempore necessitatibus neque sint ex! Fuga vel adipisci maiores unde labore a dolores cumque officiis voluptate.',
+    'I started earning from my programming knowledge in 2021. First I worked at a center that taught web development, and then I continued my career in an international company as a lead programmer. There, I not only strengthened my programming skills, but also expanded my knowledge in other areas.',
   items: [
     {
       company: 'UZIT Group',
@@ -59,7 +59,7 @@ const experience = {
     {
       company: 'Liberty Code',
       position: 'Teacher',
-      duration: '2022 - 2023',
+      duration: '2021 - 2022',
     },
   ],
 };
@@ -68,7 +68,7 @@ const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
   description:
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur commodi, nesciunt ratione delectus ad tempore necessitatibus neque sint ex! Fuga vel adipisci maiores unde labore a dolores cumque officiis voluptate.',
+    'It all started with just a random YouTube video where a guy promised to teach programming from zero to pro in an hour. I know it sounds ridiculous, but I believed it at the time. That video became the starting point: soon I enrolled in a course, I chose JavaScript between JavaScript and Python, and I have never regretted it. Now I have not only a certificate of successful completion with a high score, but also dozens of online courses taken and tutorial videos watched.',
   items: [
     {
       institution: 'Liberty Code',
@@ -96,7 +96,7 @@ const education = {
 const skills = {
   title: 'My skills',
   description:
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur commodi, nesciunt ratione delectus ad tempore necessitatibus neque sint ex! Fuga vel adipisci maiores unde labore a dolores cumque officiis voluptate.',
+    'Like all web developers I started with HTML markup language and thought it was a programming language). The real difficulty began when I started to learn JavaScript it was just a brain explosion, but after practicing I began to understand this language. After that other technologies came easily to me, especially React, which was a natural extension of my learning I could already create complex web applications in the browser.',
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -149,7 +149,7 @@ const Resume = () => {
       <div className="container mx-auto">
         <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience">experience</TabsTrigger>
+            <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="about">About me</TabsTrigger>
