@@ -13,32 +13,38 @@ const projects = [
   {
     num: '01',
     category: 'frontend',
-    title: 'e-commerce',
+    title: 'Сlinic website',
     description:
-      'E-Commerce Pizza store the project written on the latest technologies and currently the most complex project I have written. You can add or remove a selected item. You can increase or decrease the counter of one item. There are categories and sorting by price, by popularity, etc. There is page routing full-fledged shopping cart and home page',
-    stack: [
-      { name: 'React' },
-      { name: 'Redux' },
-      { name: 'Typescript' },
-      { name: 'Tailwind' },
-    ],
-    image: '/assets/work/1.png',
-    live: 'https://pizza-psi-six.vercel.app/',
-    github: 'https://github.com/Baxa-1998/Pizza',
+      'Another commercial project is a one-page web site for the local clinic Med-Fast-Clinic. The site is implemented to receive applications when filled out immediately sent to the Telegram bot.',
+    stack: [{ name: 'NextJs' }, { name: 'GSAP' }, { name: 'Tailwind' }],
+    image: '/assets/work/7.png',
+    live: 'https://www.medfastclinic.uz/',
+    github: 'https://github.com/Baxa-1998/Med-Fast-Clinic',
   },
   {
     num: '02',
     category: 'frontend',
-    title: 'building company',
+    title: 'Travel Agent Training Website',
     description:
-      'Project written on React library.At first glance, it may seem like a simple site, but there is actually a precise calculation of apartments in quadrants and a slider on the main page. By the way, I designed it myself.',
-    stack: [{ name: 'React' }, { name: 'CSS' }, { name: 'HTML' }, { name: 'CSS' }],
-    image: '/assets/work/2.png',
-    live: 'https://modent-view-lf6u.vercel.app/',
-    github: 'https://github.com/Baxa-1998/modent-view',
+      'A one-page website where you can enroll in travel counselor courses. All done minimally from design to animations.',
+    stack: [{ name: 'NextJs' }, { name: 'CSS' }, { name: 'Tailwind' }, { name: 'GSAP' }],
+    image: '/assets/work/8.png',
+    live: 'https://intele-travel.vercel.app/',
+    github: 'https://github.com/Baxa-1998/intele-travel',
   },
   {
     num: '03',
+    category: 'telegram-web-app',
+    title: 'Telegram Web App ',
+    description:
+      'Mini game of buy-slots. At the moment still not finished this project to the end because the customer cheated and did not pay me. But now I can write such Telegram Web App if there will be orders (works only on mobile)',
+    stack: [{ name: 'Vite' }, { name: 'NodeJs' }, { name: 'SCSS' }, { name: 'Axios' }],
+    image: '/assets/work/9.png',
+    live: 'https://bot-elephant-front.vercel.app/',
+    github: 'https://github.com/Baxa-1998/bot-elephant-front',
+  },
+  {
+    num: '04',
     category: 'frontend',
     title: 'Iphone page',
     description:
@@ -55,7 +61,7 @@ const projects = [
     github: 'https://github.com/Baxa-1998/Iphone-page',
   },
   {
-    num: '04',
+    num: '05',
     category: 'full-stack',
     title: 'Oxmetal',
     description:
@@ -66,7 +72,7 @@ const projects = [
     github: 'https://github.com/Baxa-1998/oxmetal',
   },
   {
-    num: '05',
+    num: '06',
     category: 'frontend',
     title: 'Plaze',
     description:
@@ -77,15 +83,26 @@ const projects = [
     github: 'https://github.com/Baxa-1998/Plaza',
   },
   {
-    num: '06',
-    category: 'web-app',
-    title: 'Weather app',
+    num: '07',
+    category: 'frontend',
+    title: 'e-commerce',
     description:
-      'A weather application written in Next js. I get the weather information from the API. It has the current weather and the forecast for the week. Also information about humidity, wind speed, wind direction, wind speed and other details',
-    stack: [{ name: 'React' }, { name: 'Next.js' }, { name: 'Typescript' }],
-    image: '/assets/work/6.png',
-    live: 'https://weather-app-sage-delta.vercel.app/',
-    github: 'https://github.com/Baxa-1998/weather-app-',
+      'E-Commerce Pizza store the project written on the latest technologies and currently the most complex project I have written. You can add or remove a selected item. You can increase or decrease the counter of one item. There are categories and sorting by price, by popularity, etc. There is page routing full-fledged shopping cart and home page',
+    stack: [{ name: 'React' }, { name: 'Redux' }, { name: 'Typescript' }, { name: 'Tailwind' }],
+    image: '/assets/work/1.png',
+    live: 'https://pizza-psi-six.vercel.app/',
+    github: 'https://github.com/Baxa-1998/Pizza',
+  },
+  {
+    num: '08',
+    category: 'frontend',
+    title: 'building company',
+    description:
+      'Project written on React library.At first glance, it may seem like a simple site, but there is actually a precise calculation of apartments in quadrants and a slider on the main page. By the way, I designed it myself.',
+    stack: [{ name: 'React' }, { name: 'CSS' }, { name: 'HTML' }, { name: 'CSS' }],
+    image: '/assets/work/2.png',
+    live: 'https://modent-view-lf6u.vercel.app/',
+    github: 'https://github.com/Baxa-1998/modent-view',
   },
 ];
 
@@ -164,7 +181,7 @@ const Work = () => {
                 return (
                   <SwiperSlide key={index} className="w-full">
                     <div className="h-[460px] relative group flex justify-center items-center">
-                      <div className="absolute top-0 bottom-0 w-full bg-black/10 z-10"></div>
+                      <div className="absolute top-0 bottom-0 w-ful z-10"></div>
                       <div className="relative w-full h-full">
                         <Image src={project.image} fill className="object-contain" alt="" />
                       </div>
